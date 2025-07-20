@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+body {
+  font-family: 'Uncial Antiqua', cursive;
+  color: #e8d7b9;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1310;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e8d7b9;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 2rem;
+  background: linear-gradient(rgba(27, 19, 16, 0.95), rgba(27, 19, 16, 0.95)),
+              url('../assets/img2.avif') center/cover fixed no-repeat;
+               background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-content {
+  background: rgba(46, 31, 15, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 3rem;
+  border: 2px solid #f5c518;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(245, 197, 24, 0.4), 0 0 60px rgba(245, 197, 24, 0.2);
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 2.3rem;
+  color: #ffe484;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #f7e6c4;
+}

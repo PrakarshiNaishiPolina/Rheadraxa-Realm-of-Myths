@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.footer {
+  background-color: #0b0c10;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Uncial Antiqua', cursive;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  margin: 0;
+  color: #f5c518;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.footer {
+  width: 100%;
+  padding: 1.2rem 0;
+  text-align: center;
+  background-color: #2e1f0f; 
+  color: #f5c518;
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 1rem;
+  border-top: 2px solid #f5c518;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+}

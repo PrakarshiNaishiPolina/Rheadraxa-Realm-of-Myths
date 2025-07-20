@@ -1,0 +1,29 @@
+.entity-card {
+  background-color: #2e1f0f;
+  border: 2px solid #f5c518;
+  border-radius: 12px;
+  padding: 1rem;
+  color: #e8d7b9;
+  box-shadow: 0 0 12px rgba(245, 197, 24, 0.1);
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.entity-card:hover {
+  transform: scale(1.03);
+}
+
+.entity-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.entity-card h2 {
+  color: #f5c518;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}

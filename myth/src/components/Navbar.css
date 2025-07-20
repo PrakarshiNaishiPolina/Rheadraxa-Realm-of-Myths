@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=Gloock&family=Great+Vibes&display=swap');
+
+.navbar {
+  background-color: #0b0c10;
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Uncial Antiqua', cursive;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ 
+ 
+}
+
+.title {
+  font-size: 2rem;
+  color: #f5c518;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bb86fc;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.navbar {
+  width: 100%;
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e1f0f; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  font-family: 'Uncial Antiqua', cursive;
+  border-bottom: 2px solid #f5c518; 
+}
+
+.title {
+  font-size: 2rem;
+  color: #f5c518; 
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #e8d7b9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bb86fc; 
+}
+
